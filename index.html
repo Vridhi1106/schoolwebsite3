@@ -1,0 +1,165 @@
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title> School Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ <nav class="navbar-inverse my_nav_bar">
+<!--         navbar-inverse. It is a bootstrap css property. We are using it by calling it inside the class of the element. It is used to give the background-color and font color to the menu bar.-->
+<!--        my_nav_bar.- We are using this to give some style to my_nav_bar-->
+       <div class="navbar-header"> 
+<!--  It also helps to get the menu item on the left hand side. -->
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">Venkateshwar International School</a>
+        </div>
+<!--        This is the closing tag of navbar-header.-->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campuslife">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#whatnew">What’s New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactus">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            ***Feel free to ask any queries on	principal@vis10dwarka.com.****
+        </marquee>
+        <center>
+        <img class="img-responsive img-thumbnail"  src="https://school.edufever.com/wp-content/uploads/2020/05/Venkateshwar-International-School-Dwarka-1.jpg">
+        </center>
+    </div>
+    <div class="container">
+    <center>
+    <section id="campuslife">
+        <div class="page-header" id="campus_life">
+            <h1 class="text-capitalize" id="head">campus life</h1>
+        </div>
+   <img class="img-responsive img-thumbnail" src="auditoriom.jpg">
+        <h2 class="text-success text-center text-capitalize style"><kbd>School Auditorium</kbd></h2>
+        <h3 class="text-success text-left text-capitalize text-style">Was Built in 2001</h3>
+        <hr>
+        <p class="text-muted text-left">This is my favourite place. In our Auditorium,we do alot of things like dramas, competitions and more...We come here to practice dances and prepare for few inter-school competitions. Workshops are also held here.It feels like coming to this place is like going to a theatre. </p>
+     <img class="img-responsive img-thumbnail" src="libary.jpg">
+      <h2 class="text-success text-center text-capitalize style"><kbd>School Library</kbd></h2>
+        <h3 class="text-success text-left text-capitalize text-style">Was Built in 2001</h3>
+        <hr>
+        <p class="text-muted text-left">As we all know reading is the best way of improving your english skills. So here is the place where you can read alot of books. I love comping to the library because here I get to read different kinds of books. Our library teacher tells beautiful and interesting stories which I love to here. This is the only place where I feel relaxed. And we also get to take books home and read them for a week! </p>
+        <img class="img-responsive img-thumbnail" src="playground.png">
+      <h2 class="text-success text-center text-capitalize style"><kbd>School Playground</kbd></h2>
+        <h3 class="text-success text-left text-capitalize text-style">Was Built in 2001</h3>
+        <hr>
+        <p class="text-muted text-left">We know that playing keeps us fit, healthy, and strong.So here is where I play during recess and games period. This place contains different areas for different sports like basketball court, tennis court, swimming pool and more.... Here different sports competitions are held.I enjoy playing with my friends. </p>
+        
+   </section>
+    </center>
+        <section id="achievements">
+         <div class="page-header" id="movies">
+            <h2 class="text-capitalize" id="head">acheivements</h2>
+        </div>
+          <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+<!--            movie_head is the name given by us to add some additional css properties-->
+              <span class="fa fa-trophy">Young Orator<i class="fa fa-sort-desc"></i></span>
+            
+        </div>
+        <div class="collapse" id="avengers_endgame">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 movie_text">
+            
+        
+<!--        movie_text is the name given by us-->
+            <img src="yo.PNG" class="img-responsive img-thumbnail" style="width: 300px; height: 350px;"> 
+            </div>  
+           <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+               <h5 class="text-success text-left text-capitalize">Won The Young Orator Competition
+                 
+          </h5>
+               <p>Abdija Singh, an ace student of class II participated in a 30 second
+challenge organized by Planetspark for
+kids aged 5-9 wherein they were required
+to recreate their own version of Martin
+Luther King Junior’s renowned speech, ‘I
+Have A Dream’ in 15 to 30 seconds.
+</p>
+            </div>  
+        </div>         
+       
+        </section>
+        
+        <section id="whatnew" style="margin-top: 370px;">
+            <div class="page-header">
+                <h1 id="head" class="text-capitalize">what's new</h1>
+            </div>
+          
+                <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"><h3>The Korea-India Quiz was held in 2021.</h3>
+                <img src="k.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+                <h4 class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The students of class xii had their second session with the students at ulsan foreign language high school, korea. The korean students were at their school while their indian counterparts were at home due to the current lockdown. A captivating korero on "movies" produced in both nations, india and south korea, was held. Attendees from both the sides engaged in an enthralling discussion. Even the teachers ms. Meenu Kumar and mr. Joon Son joined the discussion and talked about formula of ‘masala movies’. The talks varied from some indian golden oldies to the sensational-oscar winning movie-slumdog millionaire to some korean blockbusters like parasite. Both the teams gathered a new perspective about films as an art form .The students also recommended movies to one another . Few ufl school students also gave brief presentations touching upon the two major movie genres : bollywood and k-pop. the session culminated with a small question and answer session.</h4>
+            </li>
+            </ul>
+          
+        </section>
+        <section id="alumni">
+            <div class="page-header">
+                <h1 class="text-capitalize" id="head">our alumni </h1>
+            </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" style="cursor: pointer" data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+            <img class="img-responsive" src="mp.jfif">
+          <p class="text-primary" style="font-size: ">Meenakshi Pahuja</p>
+            </div>
+            <div class="modal fade" id="First_Space_Encyclopaedia">
+               <div class="modal-dialog">
+                   <div class="modal-content" style="margin-top: 100px;">
+                       <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"  style="font-size: 30px ">Meenakshi Pahuja</h4>
+                       </div>
+                      <div class="modal-body" style="text-align: center;">
+                          <img class="img-responsive" src="mp.jfif" style="display: inline-block;">
+                          <p style="margin-top: 10px;">Meenakshi Pahuja (born 1978) is an Indian lecturer and marathon swimmer.</p>
+                          <a href="https://en.wikipedia.org/wiki/Meenakshi_Pahuja" target="_blank"><b style="font-size: 20px;">To know more</b></a>
+                       </div>
+                   </div>
+                </div> 
+            </div>
+        
+        </section>
+        <section id="contactus">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5253474038564!2d77.05577331492222!3d28.584012582436955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b1f81681f71%3A0x2188e0393cc7d5c7!2sVenkateshwar%20International%20School!5e0!3m2!1sen!2sin!4v1622888979934!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+            <img class="img-responsive img-circle col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:300px;height:300px" src="principle.png">
+             <h3>Dr Manisha Sharma</h3>
+        <br>
+        <br>
+        <div class="contact_1">
+            <a href="mailto:principal@vis10dwarka.com?Subject=Hello">
+            <i class="fa fa-envelope"></i>
+               <h4>principal@vis10dwarka.com</h4>    
+            </a>
+            <br>
+            
+            <a href="callto:+91-011 - 43180800">
+            <i class="fa fa-phone-square"></i>
+               <h4>+91-011 - 43180800</h4> 
+            </a>
+            </div>
+        </section>
+        </div>
+    </body>
+    </html>
