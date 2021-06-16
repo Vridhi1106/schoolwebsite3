@@ -21,7 +21,7 @@ p{
 .style{
     font-size: 40px;
 }
-#head{
+.head{
     font-size: 48px;
     font-weight: bolder;
 }
@@ -34,10 +34,10 @@ p{
 #achievements h5{
     font-size: 30px;
 }
-.movie_head i{
+.icon{
     float: right;
 }
-.movie_head{
+.orator{
     font-size: 25px;                 
     padding: 6px 22px;
     border-radius: 10px;
